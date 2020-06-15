@@ -180,7 +180,7 @@ class DecisionTree:
 			print(seperator, " -> (" + dic +")")  	
 
 tree = DecisionTree()
-tr_data, clss, attrs, goal = tree.read_data('tennis.csv')
+tr_data, clss, attrs, goal = tree.read_data('CSV/tennis.csv')
 
 tree1 = tree.create_tree(tr_data, clss, attrs)
 
